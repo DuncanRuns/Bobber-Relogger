@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "me.duncanruns.bobberrelogger.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"FishingHookMixin",
+		"ServerPlayerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
